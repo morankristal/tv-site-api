@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "moram",
+  "password": "Morank0706",
+  "database": "tv-site",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "src/user-module/user.entity.ts"
+  ]
+}
